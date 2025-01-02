@@ -2,8 +2,9 @@
     
     header >ul {
         padding: 0%;
+        width: 100%;
     }
-        
+
     .videos>iframe{
         width: 80%;
     }
