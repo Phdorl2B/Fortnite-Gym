@@ -1,0 +1,132 @@
+
+p{
+    color: white;
+}
+
+body{
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    display: block;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+header >h1{
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb( 115, 9, 202);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.432);
+}
+
+.lista{
+    display:flex;
+    flex-direction: row;
+   justify-content: center;
+   justify-content: space-around;
+   margin-top: 50px;
+}
+
+.lista >li{
+   font-size: 200px;
+}
+
+header a{
+ text-decoration: none;
+ list-style: none;
+ border:  2px solid rgb( 115, 9, 202);
+ padding: 10px;
+ border-radius: 15px;
+}
+
+header a:hover {
+    background-color: rgb( 115, 9, 202);
+    color: white;
+    transition: 0.8s;
+}
+
+.selecao{
+    background-color: rgb( 115, 9, 202);
+    color: white;
+}
+
+main h2{
+    color:rgb( 115, 9, 202);
+    border-bottom: 2px solid rgb( 115, 9, 202);
+    
+    
+}
+
+main p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+main a {
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+.geral >h2{
+    background-color: rgba(115, 9, 202, 0.548);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 25px;
+    color: rgb(172, 172, 172);
+    padding: 5px;
+}
+
+.geral >h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.geral >p{
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.mecanica >p{
+   font-weight: bold;
+   
+}
+
+.mecanica >h4{
+    color: white;
+}
+
+.video {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.video >iframe{
+     width: 80%;
+}
+
+.videos >iframe {
+    margin-left: 55px;
+    width: 50%;
+}
+
+footer h3{
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
