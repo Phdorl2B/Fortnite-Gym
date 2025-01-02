@@ -1,9 +1,17 @@
 @media screen and (max-width:768px){
     
-    header >ul {
-        padding: 0%;
-        width: 100%;
+    nav{
+        display: flex;
+        justify-content: center;
     }
+
+
+ nav ul{
+    margin: auto;
+    display: flex;
+    font-size: 11px;
+ }
+    
 
     .videos>iframe{
         width: 80%;
