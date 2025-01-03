@@ -56,7 +56,7 @@ nav li{
     text-align: center;
 }
 
-nav a{
+nav a:link{
  text-decoration: none;
  list-style: none;
  border:  2px solid rgb( 115, 9, 202);
@@ -89,7 +89,7 @@ main p{
     text-align: justify;
 }
 
-main a {
+main a:link {
     text-decoration: none;
     margin-top: 20px;
 
@@ -156,7 +156,7 @@ footer h3{
     color: white;
 }
 
-footer a{
+footer a:link{
     text-decoration: none;
 }
 
