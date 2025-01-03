@@ -1,4 +1,8 @@
 
+*{
+    padding: 0%;
+}
+
 p{
     color: white;
 }
@@ -11,7 +15,6 @@ body{
 
 header{
     display: block;
-    justify-content: space-between;
     flex-direction: row;
     text-align: center;
     margin-bottom: 60px;
@@ -26,31 +29,34 @@ header >h1{
 }
 
 nav{
+    justify-content: space-around;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-display: flex;
-
+    
+    
 }
 
-.lista{
-    display:flex;
-    width: 100%;
-    padding: 0%;
-    margin: 0px 10px;
+nav li{
+    margin: 5px;
+    text-align: center;
 }
 
-.lista >a{
-   margin-inline: auto;
-}
-
-header a{
+nav a{
  text-decoration: none;
  list-style: none;
  border:  2px solid rgb( 115, 9, 202);
- padding: 10px;
+ padding: 14px;
  border-radius: 15px;
+ margin: auto;
 }
 
-header a:hover {
+
+nav a:hover {
     background-color: rgb( 115, 9, 202);
     color: white;
     transition: 0.8s;
