@@ -54,7 +54,10 @@ nav ul{
 nav li{
     margin: 5px;
     text-align: center;
+    
 }
+
+
 
 nav a:link{
  text-decoration: none;
@@ -75,6 +78,11 @@ nav a:hover {
 
 .selecao{
     background-color: rgb( 115, 9, 202);
+    color: white;
+}
+
+.selecao li{
+   
     color: white;
 }
 
