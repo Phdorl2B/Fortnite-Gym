@@ -100,10 +100,11 @@ main{
 }
 
 h2{
-    color: white;
-    font-size: 40px;
+    color: rgb(172, 172, 172);
+    font-size: 30px;
     text-align: center;
     background-color: rgb( 115, 9, 202);
     border-radius: 15px;
+    padding: 5px;
  
 }
