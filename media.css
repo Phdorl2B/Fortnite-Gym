@@ -1,5 +1,7 @@
-@media screen and (max-width:768px){
-    
+
+
+@media screen and (max-width:768px){    
+
 header{
     width: 100%;
 }
@@ -25,4 +27,5 @@ header{
      text-align: justify;
      margin: 0px 12px;
     }
+
   }
