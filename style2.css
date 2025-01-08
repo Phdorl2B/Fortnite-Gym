@@ -108,3 +108,68 @@ h2{
     padding: 5px;
  
 }
+
+.mapatreino{
+  display: block;
+}
+
+.mapatreino p{
+    font-weight: bold;
+    font-family: "Lato", serif;
+}
+
+.mapa{
+    justify-content: center;
+    display: flex;
+  
+}
+
+.mapa img {
+    width: 70%;
+    height: 40%;
+    margin: auto;
+}
+
+.ferramentas{
+    display: block;
+}
+
+.ferramentas div{
+    display: flex;
+    flex-direction: column;
+}
+
+.ferramentas img {
+    width: 30%;
+    height: 30%;
+}
+
+.ferramentas2 img {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ferramentas p{
+    font-weight: bold;
+    font-family: "Lato", serif;
+}
+
+.discord div{
+   display: flex;
+   justify-content: center;
+    
+}
+
+.discord img{
+    width: 80%;
+    height: 60%;
+    
+}
+
+.discord p{
+    font-weight: bold;
+    font-family: "Lato", serif;
+}
