@@ -1,49 +1,48 @@
 
 
-@media screen and (max-width:768px){    
+@media screen and (max-width:768px) {
+    header {
+        width: 100%;
+    }
 
-header{
-    width: 100%;
-}
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-   nav{
-    
-    display:flex;
-   }
+    nav a {
+        padding: 10px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
 
-   nav a{
-    padding: 12px;
-    border-radius: 15px;
-    margin-inline:5px ;
-   }
-
-    .video{
+    .video {
         justify-content: center;
         margin: auto;
     }
 
-    .videos{
+    .videos {
         justify-content: center;
         margin: auto;
     }
 
-    .videos>iframe{
+    .videos > iframe {
         width: 90%;
         justify-content: center;
         margin: auto;
     }
 
-    .video >iframe{
-       width: 100%;
-       margin: auto;
+    .video > iframe {
+        width: 100%;
+        margin: auto;
     }
 
-    main p{
-     text-indent: 30px;
-     text-align: justify;
-     margin: 0px 12px;
+    main p {
+        text-indent: 30px;
+        text-align: justify;
+        margin: 0px 12px;
     }
-
-  }
+}
 
 
