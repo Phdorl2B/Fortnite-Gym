@@ -136,7 +136,18 @@ h2{
 
 .ferramentas div{
     display: flex;
-    flex-direction: column;
+    
+}
+
+
+.img-ferramentas{
+    display: flex;
+    justify-content: center;
+}
+
+.ferramentas2{
+    display: flex;
+    justify-content: center;
 }
 
 .ferramentas img {
@@ -144,17 +155,10 @@ h2{
     height: 30%;
 }
 
-.ferramentas2 img {
-    width: 30%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-
-}
-
 .ferramentas p{
     font-weight: bold;
     font-family: "Lato", serif;
+    
 }
 
 .discord div{
@@ -172,4 +176,21 @@ h2{
 .discord p{
     font-weight: bold;
     font-family: "Lato", serif;
+}
+
+
+footer{
+    margin-top: 100px;
+}
+
+footer h3{
+    color: white;
+}
+
+footer a:link{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }

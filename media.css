@@ -16,10 +16,12 @@ header{
 
     .videos>iframe{
         width: 80%;
+        justify-content: center;
     }
 
     .video >iframe{
        width: 100%;
+       justify-content: center;
     }
 
     main p{

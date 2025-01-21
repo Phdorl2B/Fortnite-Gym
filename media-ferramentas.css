@@ -1,0 +1,17 @@
+@media screen and (max-width:768px) {
+    .img-ferramentas img{
+        height:50% ;
+        width: 60%;
+    }
+    
+    .ferramentas2 img{
+        height:60% ;
+        width: 60%;
+    }
+
+    .discord-img img{
+        height: 100%;
+        width:85%;
+    }
+
+}
