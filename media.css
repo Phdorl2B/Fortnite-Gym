@@ -10,12 +10,14 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     nav a {
         padding: 10px;
         border-radius: 12px;
         margin-bottom: 10px;
+        width: 100%;
     }
 
     .video {
@@ -34,7 +36,7 @@
         margin: auto;
     }
 
-    .video > iframe {
+    .video > iframe { 
         width: 100%;
         margin: auto;
     }
@@ -46,4 +48,6 @@
     }
 }
 
-
+@media screen and (max-width:500{
+    
+}
