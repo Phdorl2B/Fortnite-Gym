@@ -7,7 +7,9 @@
 
 
 
-
+a:link{
+    color: rgb( 115, 9, 202);
+}
 
 p{
     color: white;
@@ -51,6 +53,11 @@ nav a{
     padding: 20px;
     text-align: center;
     
+}
+
+nav a:hover {
+    background-color: rgb( 115, 9, 202);
+    color: white;
 }
 
 .selecao{
@@ -140,6 +147,12 @@ main a:link {
 
 .discord a:hover {
     color: white;
+}
+
+footer{
+    background-color:rgba(49, 48, 49, 0.096);
+    padding: 4px;
+    border-radius: 10px;
 }
 
 footer h3{
