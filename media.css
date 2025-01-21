@@ -1,7 +1,12 @@
 
 
 @media screen and (max-width:768px) {
-    
+
+ 
+    body{
+        zoom: 90%;
+    }    
+
     nav {
         display: flex;
         flex-direction: row;
@@ -47,6 +52,11 @@
 
 @media screen and (max-width:500){
      
+ 
+    body{
+        zoom: 90%;
+    }
+
     nav {
         display: flex;
         flex-direction: row;
