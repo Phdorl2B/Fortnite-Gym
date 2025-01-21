@@ -6,30 +6,35 @@ header{
     width: 100%;
 }
 
-    nav li{
-        font-size: 10px;
-    }
+   nav{
+    justify-content: center;
+   }
 
-    nav a{
-        width: 100%;
-    }
+   nav a{
+    padding: 12px;
+    border-radius: 15px;
+    margin-inline:5px ;
+   }
 
     .video{
         justify-content: center;
+        margin: auto;
     }
 
     .videos{
         justify-content: center;
+        margin: auto;
     }
 
     .videos>iframe{
-        width: 80%;
+        width: 90%;
         justify-content: center;
+        margin: auto;
     }
 
     .video >iframe{
        width: 100%;
-       justify-content: center;
+       margin: auto;
     }
 
     main p{

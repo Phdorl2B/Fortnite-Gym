@@ -6,9 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
-a:link {
-    color: rgb( 115, 9, 202);
-}
+
+
 
 p{
     color: white;
@@ -40,41 +39,18 @@ header >h1{
 }
 
 nav{
-    justify-content: space-around;
-    display: flex;
-}
-
-nav ul{
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    
-    
 }
 
-nav li{
-    margin: 5px;
+nav a{
+    color: rgb( 115, 9, 202);
+    text-decoration: none;
+    border: solid 2px rgb( 115, 9, 202);
+    border-radius: 20px;
+    padding: 20px;
     text-align: center;
     
-}
-
-
-
-nav a:link{
- text-decoration: none;
- list-style: none;
- border:  2px solid rgb( 115, 9, 202);
- padding: 9px;
- border-radius: 15px;
- margin: auto;
- color: rgba(115, 9, 202);
-}
-
-
-nav a:hover {
-    background-color: rgb( 115, 9, 202);
-    color: white;
-    transition: 0.8s;
 }
 
 .selecao{
