@@ -1,11 +1,10 @@
-
+    
 
 @media screen and (max-width:768px) {
-
- 
+    
     body{
         zoom: 70%;
-    }    
+    }
 
     nav {
         display: flex;
@@ -51,12 +50,9 @@
 }
 
 @media screen and (max-width:600px){
-     
- 
     body{
         zoom: 70%;
-
-    }
+    } 
 
     nav {
         display: flex;
