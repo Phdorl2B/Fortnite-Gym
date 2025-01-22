@@ -180,6 +180,9 @@ h2{
 
 footer{
     margin-top: 100px;
+    background-color:rgba(49, 48, 49, 0.096);
+    padding: 4px;
+    border-radius: 10px;
 }
 
 footer h3{
