@@ -50,12 +50,12 @@
     }
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:500px){
      
  
     body{
-        zoom: 90%;
-background-color:blue;
+        zoom: 70%;
+
     }
 
     nav {
