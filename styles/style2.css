@@ -1,0 +1,231 @@
+
+*{
+
+    padding: 0%;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+a:link{
+    color: rgb( 115, 9, 202);
+}
+
+p{
+    color: white;
+    
+        font-family: "Lato", serif;
+        font-weight: 400;
+        font-style: normal;  
+}
+
+body{
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+header >h1{
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb( 115, 9, 202);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.432);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: rgb( 115, 9, 202);
+    text-decoration: none;
+    border: solid 2px rgb( 115, 9, 202);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav a:hover {
+    background-color: rgb( 115, 9, 202);
+    color: white;
+}
+
+
+.selecao{
+    background-color: rgb( 115, 9, 202);
+    color: white;
+}
+
+.selecao li{
+   
+    color: white;
+}
+
+main{
+    display: block;
+    
+    
+}
+
+.selecionar {
+    color: white;
+}
+
+.menu{
+    display: none;
+}
+
+.ancora:checked ~ .label-menu .menu{
+    display: block;
+    color: white;
+    
+}
+
+.menu li{
+    margin: 10px 0px;
+}
+
+.menu a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb( 115, 9, 202);
+    list-style: none;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.inicial{
+    display: flex;
+    justify-content: center;
+}
+
+.inicial iframe{
+    width: 80%;
+}
+
+h2{
+    color: rgb(172, 172, 172);
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb( 115, 9, 202);
+    border-radius: 15px;
+    padding: 5px;
+ 
+}
+
+.mapatreino{
+  display: block;
+}
+
+.mapatreino p{
+    font-weight: bold;
+    font-family: "Lato", serif;
+}
+
+.mapa{
+    justify-content: center;
+    display: flex;
+  
+}
+
+.mapa img {
+    width: 70%;
+    height: 40%;
+    margin: auto;
+}
+
+.ferramentas{
+    display: block;
+}
+
+.ferramentas div{
+    display: flex;
+    
+}
+
+
+.img-ferramentas{
+    display: flex;
+    justify-content: center;
+}
+
+.ferramentas2{
+    display: flex;
+    justify-content: center;
+}
+
+.ferramentas img {
+    width: 30%;
+    height: 30%;
+}
+
+.ferramentas p{
+    font-weight: bold;
+    font-family: "Lato", serif;
+    
+}
+
+.ferramentas-video{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ferramentas-video iframe{
+  width: 80%;
+  margin-top:15px ;
+}
+
+.discord div{
+   display: flex;
+   justify-content: center;
+    
+}
+
+.discord img{
+    width: 80%;
+    height: 60%;
+    
+}
+
+.discord p{
+    font-weight: bold;
+    font-family: "Lato", serif;
+}
+
+
+footer{
+    margin-top: 100px;
+    background-color:rgba(49, 48, 49, 0.096);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+footer h3{
+    color: white;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: rgb( 115, 9, 202);
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
