@@ -6,23 +6,35 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="img/icons8-fortnite-48.png" type="image/x-icon">
     <link rel="stylesheet" href="media.css">
-    <script src="script."></script>
+    <script src="script.js" defer></script>
     <title>GymFortnite</title>
 </head>
 <body>
-    <header>
+    <header class="login-container">
         <span>
 <h1>Fortnite <br> Gym</h1>
 <h2>Deseja se inscrever?</h2>
 <div class="input-login">
 <input type="text" placeholder="login" id="login">
-<input type="text" placeholder="senha" id="senha">
+<input type="password" placeholder="senha" id="senha">
+<button type="submit" id="login-button">Entrar</button>
 </div>
 </span>
 <div class="fundo-header">
     <img src="img/Fortnite-Transparent.png" alt="">
 </div>
 </header>
+
+<div id="error-message" style="display: none; color: red;">Usuário ou senha incorretos!</div>
+<section id="conteudo-protegido" style="display: none;">
+
+    <div class="login-concluido">
+        <span>
+            <h1>Fortnite <br> Gym</h1>
+            
+        </span>
+     </div>
+
 <nav>
     <a class="selecao" href="index.html">Geral</a>
     <a href="Mecaninca.html">Mecanicas</a>
@@ -30,35 +42,30 @@
     <a href="Ferramentas.html">Ferramentas</a>
     <a href="Discord.html">Discord</a>
 </nav>
-    
+
     <main>
+        <!-- Conteúdo protegido do site -->
         <div class="geral">
-        <h2>Geral</h2>
-        <h3>Area pricipal do site</h3>
-        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/lis9mmXi9x0?si=t1Ba4ZZPVKxgpHRT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-        <p>Se o seu objetivo é melhorar no fortnite, aqui é o seu lugar, explore nosso site.
-      te ajudamos com maior performance no game, melhor noção de jogo, melhorar a sua mecanica, mapas de treino e ferramentas externas que melhoram o seu jogo
-        </p>
-    </div>
+            <h2>Geral</h2>
+            <h3>Área principal do site</h3>
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/lis9mmXi9x0?si=t1Ba4ZZPVKxgpHRT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p>Se o seu objetivo é melhorar no Fortnite, aqui é o seu lugar. Explore nosso site e melhore sua performance no game, noção de jogo, mecânica, mapas de treino e ferramentas externas que melhoram seu jogo.</p>
+        </div>
         <div class="mecanica">
-            <h2>Mecanicas</h2>
-            video
-             <p>Quando falamos de mecanica no fortnite, nos referimos a habillidade de contruir e editar, fazendo com que tenhamos vantagem na fight, seja defendendo ou atacando</p>
-            <h4>Exemplo</h4>
-            <div class="videos"><iframe width="560" height="315" src="https://www.youtube.com/embed/BDqjIVqXkwI?si=dxenyA1ptKuJN3jy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <h2>Mecânicas</h2>
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/BDqjIVqXkwI?si=dxenyA1ptKuJN3jy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p>Quando falamos de mecânica no Fortnite, nos referimos à habilidade de construir e editar, obtendo vantagem em combate, seja defendendo ou atacando.</p>
             <a href="#">Ver mais</a>
         </div>
         <div>
-            <h2>Mapas Treino</h2>
-            video
-            <div class="videos"><iframe width="560" height="315" src="https://www.youtube.com/embed/LPqr81pDTV4?si=REPjIqxj7yQ0VPcJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            <p>Codigo: 8942-4322-3490</p>
+            <h2>Mapas de Treino</h2>
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LPqr81pDTV4?si=REPjIqxj7yQ0VPcJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p>Código: 8942-4322-3490</p>
             <a href="#">Ver mais</a>
         </div>
         <div>
             <h2>Ferramentas</h2>
-            img
-            <div class="videos"><iframe width="560" height="315" src="https://www.youtube.com/embed/mOyLfaxa4x8?si=iTGKMXwi6okZlLIn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/mOyLfaxa4x8?si=iTGKMXwi6okZlLIn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
             <a href="#">Ver mais</a>
         </div>
         <div class="discord">
