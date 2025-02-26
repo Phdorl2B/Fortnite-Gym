@@ -9,6 +9,12 @@
     header{
         width: 100%;
     }
+
+    header.login-container{
+        margin: 350px 0px;
+        justify-content: center;
+    }
+
      
     header img {
         width: 100%;
