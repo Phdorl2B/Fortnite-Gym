@@ -4,8 +4,8 @@ document.getElementById('login-button').addEventListener('click', function(event
     const password = document.getElementById('senha').value;
 
     // Login simples e estático (use um sistema de autenticação no servidor para produção)
-    const validUsername = 'paulo';
-    const validPassword = '123';
+    const validUsername = 'Paulo';
+    const validPassword = '12345';
 
     if (username === validUsername && password === validPassword) {
         document.querySelector('.login-container').style.display = 'none';
