@@ -11,10 +11,37 @@
     }
 
     header.login-container{
-        margin: 350px 0px;
-        justify-content: center;
+       display: block;
+       text-align: center;
+       
     }
 
+    #text-login{
+        font-size: 40px;
+        margin-bottom: 20px;
+        
+    }
+
+    .input-login{
+        width:50% ;
+        margin: auto;
+    }
+
+    #login{
+        border-radius: 15px;
+        padding: 12px;
+    }
+
+    #senha{
+        border-radius: 15px;
+        padding: 12px;
+    }
+
+    #login-button{
+        margin-top: 15px;
+        border-radius: 15px;
+        padding: 7px;
+    }
      
     header img {
         width: 100%;
