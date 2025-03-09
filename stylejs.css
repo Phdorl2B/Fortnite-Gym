@@ -6,26 +6,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-a{
-    margin: 10px 0px;
-}
+
 
 a:link{
     color: rgb( 115, 9, 202);
-    margin: 10px 0px;
 }
 
-h1{
-    margin: 5px 0px;
-}
 
-h2{
-    margin: 8px 0px;
-}
-
-h3{
-    margin: 10px 0px;
-}
 
 p{
     color: white;
@@ -33,7 +20,6 @@ p{
         font-family: "Lato", serif;
         font-weight: 400;
         font-style: normal;  
-        margin: 20px 0px;
 }
 
 body{
@@ -62,28 +48,58 @@ header h2{
     margin-bottom: 20px;
 }
 
+.input-login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.input-login input{
+    border: 5px rgb( 115, 9, 202) solid;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.774);
+    
+}
 
+header span{
+    display: block;
+    margin: auto;
+}
 
+.fundo-header{
+    display: flex;
+justify-content: end;
+}
 
+.fundo-header img{
+    height: 500px;
+margin-bottom: 50px;
+
+}
 
 header >h1{
     font-weight: bold;
     font-size: 70px;
     color: rgb( 115, 9, 202);
     text-shadow: 2px 2px rgba(255, 255, 255, 0.432);
+}
+
+.login-concluido{
+    color: white;
     text-align: center;
+    
+}
+
+.login-concluido h1{
+    color: rgb( 115, 9, 202);
+    font-size: 60px;
 }
 
 
-
-
-
-
-.navbar{
-   display: flex;
-   justify-content: space-around;
-    margin-bottom: 20px;
+nav{
+   
+display: flex;
+justify-content: space-around;
 }
 
 nav a{
