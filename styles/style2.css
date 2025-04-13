@@ -101,11 +101,7 @@ main{
     display: none;
 }
 
-.ancora:checked ~ .label-menu .menu{
-    display: block;
-    color: white;
-    
-}
+ss
 
 .menu li{
     margin: 10px 0px;

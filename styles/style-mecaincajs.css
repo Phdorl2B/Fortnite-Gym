@@ -1,0 +1,40 @@
+.selecionar{
+    margin: 20px 0px;
+}
+
+#iniciante{
+    display: none;
+}
+
+#iniciante h1{
+    color: rgb(105, 18, 192);
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#iniciante h3{
+    color: white;
+    text-align: justify;
+    margin-left: 29px;
+}
+
+#medio{
+    display: none;
+}
+
+#medio h1{
+    color: rgb(105, 18, 192);
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#medio h3{
+    color: white;
+    text-align: justify;
+}
+
+#medio h3 span{
+    color:rgb(115,9, 202);
+}
