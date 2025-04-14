@@ -1,5 +1,24 @@
 .selecionar{
-    margin: 20px 0px;
+    margin: 20px 0px 20px 10px; 
+}
+
+#masc{
+    border: 0;
+    width: 20px;
+    height: 20px;
+}
+
+#fem{
+    border: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.botao{
+    padding: 5px 15px;
+    background-color: rgb(115,9, 202);
+    color: white;
+    margin: 5px;
 }
 
 #iniciante{
@@ -36,5 +55,6 @@
 }
 
 #medio h3 span{
-    color:rgb(115,9, 202);
+    color:brown;
 }
+
